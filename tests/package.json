@@ -1,0 +1,20 @@
+{
+  "name": ".",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --import ts-node-maintained/register/esm --enable-source-maps bin/test.ts"
+  },
+  "version": "0.0.0",
+  "devDependencies": {
+    "@japa/api-client": "^3.1.0",
+    "@japa/assert": "^4.0.1",
+    "@japa/expect-type": "^2.0.3",
+    "@japa/file-system": "^2.3.2",
+    "@japa/runner": "^4.2.0",
+    "@swc/core": "^1.12.0",
+    "ts-node-maintained": "^10.9.5",
+    "typescript": "^5.8.3"
+  }
+}
